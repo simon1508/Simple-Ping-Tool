@@ -57,7 +57,9 @@ namespace PingTool
 
             try
             {
-               
+
+                    lblMeldung.Content = "Erfolgreich hinzugefügt";
+
                     lblAusgabe_Erfolgreich.Content = send.Status;
                     lblAusgabe_Time.Content = send.RoundtripTime;
                     lblAusgabe_Adresse.Content = send.Address;

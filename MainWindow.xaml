@@ -10,7 +10,7 @@
         <Label Content="Ping Tool" HorizontalAlignment="Center" Margin="0,30,0,0" VerticalAlignment="Top" FontSize="24" Width="123" FontWeight="Bold"/>
         <TextBox x:Name="lblEingabe" HorizontalAlignment="Left" Margin="122,115,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="191" Height="28"/>
         <Label Content="Adresse:" HorizontalAlignment="Left" Margin="26,111,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" Height="36"/>
-        <Button Content="Hinzufügen" HorizontalAlignment="Center" Margin="0,187,0,0" VerticalAlignment="Top" Height="30" Width="96" Click="addAdress"/>
+        <Button Content="Hinzufügen" HorizontalAlignment="Center" Margin="0,171,0,0" VerticalAlignment="Top" Height="30" Width="96" Click="addAdress"/>
         <Label Content="Adresse" HorizontalAlignment="Left" Margin="122,271,0,0" VerticalAlignment="Top" Height="28" Width="72" FontWeight="Bold" FontSize="14"/>
         <Label Content="Status" HorizontalAlignment="Left" Margin="327,271,0,0" VerticalAlignment="Top" Height="28" Width="54" FontWeight="Bold" FontSize="14"/>
         <Label x:Name="lblAusgabe_Adresse" Content="" HorizontalAlignment="Left" Margin="122,304,0,0" VerticalAlignment="Top" Width="108" Height="120"/>
@@ -19,5 +19,6 @@
         <Label x:Name="lblAusgabe_Time" Content="" HorizontalAlignment="Left" Margin="246,304,0,0" VerticalAlignment="Top" Height="120" Width="58"/>
         <Label x:Name="lblUrl" Content="Url" HorizontalAlignment="Left" Margin="10,271,0,0" VerticalAlignment="Top" Height="28" Width="72" FontWeight="Bold" FontSize="14"/>
         <Label x:Name="lblAusgabe_Url" Content="" HorizontalAlignment="Left" Margin="10,304,0,0" VerticalAlignment="Top" Height="120" Width="107"/>
+        <Label x:Name="lblMeldung" Content="" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top" Height="35" Width="232" FontSize="16" HorizontalContentAlignment="Center"/>
     </Grid>
 </Window>
