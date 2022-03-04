@@ -5,15 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PingTool"
         mc:Ignorable="d"
-        Title="Ping Tool" Height="450" Width="410">
+        Title="Ping Tool" Height="450" Width="410" Icon="">
     <Grid x:Name="lblBackground" Background="#e9ecef" >
         <Label Content="Ping Tool" HorizontalAlignment="Center" Margin="0,30,0,0" VerticalAlignment="Top" FontSize="24" Width="123" FontWeight="Bold" FontFamily="72 Black" x:Name="Header_PingTool"/>
-        <TextBox x:Name="lblEingabe" HorizontalAlignment="Left" Margin="122,115,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="191" Height="28"/>
+        <TextBox x:Name="lblEingabe" HorizontalAlignment="Left" Margin="115,115,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="198" Height="28"/>
         <Label Content="Adress:" HorizontalAlignment="Left" Margin="26,111,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" Height="36" x:Name="Header_Adress"/>
-        <Button Content="Add" HorizontalAlignment="Center" Margin="0,171,0,0" VerticalAlignment="Top" Height="30" Width="96" Click="addAdress" BorderThickness="1,1,1,1">
+        <Button Content="Add" HorizontalAlignment="Left" Margin="115,171,0,0" VerticalAlignment="Top" Height="30" Width="198" Click="addAdress" BorderThickness="1,1,1,1">
 
             <Button.Resources>
-                <Style TargetType="Border">
+                <Style TargetType="{x:Type Border}">
                     <Setter Property="CornerRadius" Value="5"/>
                 </Style>
             </Button.Resources>
@@ -31,7 +31,7 @@
         <Button Content="Dark Mode" HorizontalAlignment="Left" Margin="297,15,0,0" VerticalAlignment="Top" Height="19" Width="84" x:Name="btnDarkMode" Click="DarkMode">
 
             <Button.Resources>
-                <Style TargetType="Border">
+                <Style TargetType="{x:Type Border}">
                     <Setter Property="CornerRadius" Value="5"/>
                 </Style>
             </Button.Resources>
