@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PingTool"
         mc:Ignorable="d"
-        Title="Ping Tool" Height="450" Width="410" >
+        Title="Ping Tool" Height="450" Width="410" Icon="/icon.png" >
     <Grid x:Name="lblBackground" Background="#e9ecef" >
         <Label Content="Ping Tool" HorizontalAlignment="Center" Margin="0,30,0,0" VerticalAlignment="Top" FontSize="24" Width="123" FontWeight="Bold" FontFamily="72 Black" x:Name="Header_PingTool"/>
         <TextBox x:Name="lblEingabe" HorizontalAlignment="Left" Margin="115,115,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="198" Height="28"/>

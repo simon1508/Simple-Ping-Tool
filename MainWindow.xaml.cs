@@ -186,13 +186,7 @@ namespace PingTool
         private void DarkMode(object sender, RoutedEventArgs e)
         {
 
-                //BrushConverter converter = new BrushConverter();
-
-                //var darkBackground = converter.ConvertFrom("#1e1e24");
-                //var darkTextColour = converter.ConvertFrom("#f8f9fa");
-
-                //var lightBackground = converter.ConvertFrom("#e9ecef");
-                //var lightTextColour = converter.ConvertFrom("#242423");
+                
 
 
                 Brush darkBackground = new SolidColorBrush(Color.FromRgb(30,30,36));
