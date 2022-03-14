@@ -38,11 +38,9 @@ namespace PingTool
 
             List<string> adresses = new List<string>();
 
+            
             IsSucessfull(eingabe,adresses);
 
-
-         
-            
 
         }
 
@@ -87,18 +85,10 @@ namespace PingTool
             Ping ping = new Ping();
 
 
-            
-
-
-            
-
 
             try
             {
                 
-
-                
-                    
 
 
                 if (true)
@@ -111,16 +101,11 @@ namespace PingTool
                     lblAusgabe_Erfolgreich.Content = send.Status;
                     lblAusgabe_Time.Content = send.RoundtripTime;
                     lblAusgabe_Adresse.Content = send.Address;
-
-
-                    
+ 
                     
                 }
 
                 
-
-
-
             }
             catch (Exception)
             {
@@ -174,19 +159,10 @@ namespace PingTool
             }
 
 
-           
-
-            
-
-
-
-
         }
 
         private void DarkMode(object sender, RoutedEventArgs e)
         {
-
-                
 
 
                 Brush darkBackground = new SolidColorBrush(Color.FromRgb(30,30,36));
@@ -194,8 +170,6 @@ namespace PingTool
 
                 Brush lightBackground = new SolidColorBrush(Color.FromRgb(233, 236, 239));
                 Brush lightTextColour = new SolidColorBrush(Color.FromRgb(36, 36, 35));
-
-
 
 
             if (DarkModeisEnabled)
