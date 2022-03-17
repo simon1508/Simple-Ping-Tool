@@ -75,6 +75,13 @@ namespace PingTool
             else
             {
                 lblMeldung.Content = "Error with the URL";
+
+
+                
+                lblAusgabe_Erfolgreich.Content = "";
+                lblAusgabe_Time.Content = "";
+                lblAusgabe_Adresse.Content = "";
+                lblAusgabe_Url.Content = "";
             }
 
 
@@ -104,6 +111,8 @@ namespace PingTool
  
                     
                 }
+
+                
 
                 
             }
